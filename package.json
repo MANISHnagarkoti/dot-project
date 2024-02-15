@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx tailwindcss -i  tailwind.css -o ./pages/main.css --watch",
+    "prod":"npx tailwindcss -i  tailwind.css -o ./pages/main.css --minify"
+     },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
